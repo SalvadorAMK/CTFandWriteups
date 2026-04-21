@@ -1,9 +1,3 @@
-تمام، ده نسختين:
-
-1. إنجليزي قوية مناسبة GitHub
-2. بوست عربي/إنجليزي مناسب LinkedIn (بنفس ستايل الفواصل)
-
----
 
 # ✅ **GitHub Writeup (Professional English Version)**
 
