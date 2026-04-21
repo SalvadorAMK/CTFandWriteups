@@ -1,7 +1,5 @@
 
-# ✅ **GitHub Writeup (Professional English Version)**
 
-````markdown
 # Writeup: Admin Panel - SQL Injection via Backslash Escape
 
 ## Challenge Overview
@@ -25,7 +23,7 @@ Initial testing with normal payloads resulted in errors. However, using a backsl
 ```bash
 curl -X POST "http://50.116.19.213:3000/login" \
   -d "username=admin\\&password=test" -L
-````
+
 
 **Response:**
 
