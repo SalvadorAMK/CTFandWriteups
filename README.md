@@ -1,50 +1,18 @@
-# CTF Writeups & Automated Solvers
+# SalvadorAMK — CTF Writeups & Practical Cybersecurity Notes
 
-A collection of my CTF (Capture The Flag) writeups and automated solvers for various cybersecurity competitions.
+A curated collection of CTF writeups, reusable exploit/solver scripts, and hands-on pentest methodology notes. This repository is intended as a learning and reference resource for people who want practical, reproducible CTF and pentest material, not a spoiler list.
 
-## 📋 Overview
+## About the author
+SalvadorAMK — security enthusiast and Exploits developer. This repo documents challenge writeups, automation scripts, lab binaries, and practical guides I use to learn and teach realworld offensive and defensive techniques.
 
-This repository contains detailed writeups and solution scripts for CTF challenges spanning multiple categories and difficulty levels. Solutions are implemented in multiple programming languages including C++, Python, and Shell scripting.
 
-## 🗂️ Repository Structure
+## What this repository is?, at a high level
+- Focus: MediumLevel CTF writeups, exploit scripts, and a multi part practical Cybersecurity guide.
+- Goal: explain methodology, provide reproducible examples, and share lab artefacts so readers can learn techniques without having to guess the process.
+- No spoilers: top-level docs will not expose flags or step by step exploit payloads — those live inside per challenge folders and are meant for learners who choose to read them.
 
-The repository is organized chronologically with dedicated directories for each year's competitions:
-
-- **2025/** - CTF challenges and writeups from 2025 competitions
-
-## 🛠️ Technology Stack
-
-| Language | Composition |
-|----------|-------------|
-| C++      | 51.9%       |
-| Shell    | 26.5%       |
-| Python   | 21.6%       |
-
-## 📝 Contents
-
-This repository includes:
-
-- **Writeups** - Detailed explanations and solutions for CTF challenges
-- **Automated Solvers** - Exploit scripts and solution tools
-- **Challenge Resources** - Supporting files and documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Repository Information
-
-- **Created:** April 20, 2026
-- **Default Branch:** main
-- **Visibility:** Public
-- **Status:** Active
-
-## 🚀 Getting Started
-
-1. Navigate to the year directory (e.g., `2025/`)
-2. Review the writeups and solution code for specific challenges
-3. Use the automated solvers as reference implementations or direct solutions
-
----
-
-**Note:** This repository is continuously updated with new challenges and writeups. For the latest updates, check the commit history and recent additions.
+## What you'll find here
+- Per challenge writeups: each challenge lives in its own folder with an explanatory README and any scripts/resources needed to reproduce results.
+- Tools & scripts: automation, proof of concept exploits (commonly Python + pwntools), and helper utilities.
+- Practical guides: longer, multi part writeups covering end to end pentest workflows, vulnerable lab binaries, hardening notes, and detection rules.
+- Lab artefacts: example vulnerable binaries and detection rules used for teaching and testing in safe lab environments.
