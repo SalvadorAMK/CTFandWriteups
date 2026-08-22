@@ -1,4 +1,4 @@
-# Breaking Classical Cryptography: OverTheWire Krypton — Complete Series
+# Breaking Classical Cryptography: OverTheWire Krypton - Complete Series
 
 A comprehensive walkthrough series breaking all 7 levels of **OverTheWire: Krypton**, from basic encoding to stream ciphers.
 
@@ -30,7 +30,7 @@ A comprehensive walkthrough series breaking all 7 levels of **OverTheWire: Krypt
 - **Key Concept:** Access to the encryption function reveals the key
 - **Time to Break:** 2-5 minutes
 
-### Level 3 → Level 4: Vigenère Cipher ⭐
+### Level 3 → Level 4: Vigenère Cipher 
 - **Cipher:** Polyalphabetic substitution with repeating keyword
 - **Attack:** Frequency analysis + Trigram detection + Kasiski Examination
 - **Key Concept:** Pattern repetition in the key is the cipher's fatal flaw
@@ -90,19 +90,19 @@ Covers detailed step-by-step solutions for:
 
 ### Scripts Included in Part 1
 
-1. **freq_analysis.py** — Count character and n-gram frequencies
+1. **freq_analysis.py** - Count character and n-gram frequencies
    - Usage: `python3 freq_analysis.py <file> <groupsize>`
    - Identifies most common letters, bigrams, trigrams
 
-2. **keyLength.py** — Kasiski Examination implementation
+2. **keyLength.py** - Kasiski Examination implementation
    - Estimates Vigenère key length from repeated sequences
    - Calculates GCD of inter-sequence distances
 
-3. **vignere_shift.py** — Column extractor for polyalphabetic ciphers
+3. **vignere_shift.py** - Column extractor for polyalphabetic ciphers
    - Isolates characters encrypted by same key byte
    - Turns Vigenère into multiple Caesar ciphers
 
-4. **vignere_decoder.py** — Decryption with known key
+4. **vignere_decoder.py** - Decryption with known key
    - Formula: `plaintext[i] = (ciphertext[i] - key[i % keylen]) mod 26`
 
 ---
@@ -178,23 +178,22 @@ When multiple ciphertexts encrypted with the same key show correlated statistics
 2. **Exploit the pattern** (frequency analysis, known plaintext, brute force)
 3. **Recover the key or plaintext** (reconstruct the transformation)
 
-As ciphers increase in complexity, the patterns become more subtle and require more sophisticated analysis—but the principle remains constant.
+As ciphers increase in complexity, the patterns become more subtle and require more sophisticated analysis-but the principle remains constant.
 
 ---
 
 ## References
 
-- **OverTheWire: Krypton** — https://overthewire.org/wargames/krypton/
-- **Frequency Analysis** — Classical cryptanalysis technique
-- **Kasiski Examination** — Method to find repeating key length
-- **Vigenère Cipher** — Polyalphabetic cipher (1553)
+- **OverTheWire: Krypton** - https://overthewire.org/wargames/krypton/
+- **Frequency Analysis** - Classical cryptanalysis technique
+- **Kasiski Examination** - Method to find repeating key length
+- **Vigenère Cipher** - Polyalphabetic cipher (1553)
 
 ---
 
 **Author:** Abdelrahman Mohamed  
 **Series Status:** 
-- Part 1 (Levels 0-3): ✅ Complete
-- Part 2 (Levels 4-5): 🔄 Coming Soon
-- Part 3 (Levels 6-7): 🔄 Coming Soon
+- Part 1 (Levels 0-3):  Complete
+- Part 2 (Levels 4-5):
+- Part 3 (Levels 6-7):
 
-**Last Updated:** August 22, 2026
